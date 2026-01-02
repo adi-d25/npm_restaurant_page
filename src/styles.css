@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(189, 171, 146);
+    color: white;
+}
+
+header {
+    background: rgb(129, 103, 62);
+    height: 10vh;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 18px;
+}
+
+li {
+    width: 150px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(86, 59, 26);
+    border: 2px solid rgb(214, 214, 107);
+    border-radius: 15px;
+
+    list-style: none;
+    margin-top: 25px;
+
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+/* main body */
+
+#content {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.res-image {
+    width: 500px;
+    height: 480px;
+
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.home {
+    max-width: 600px;
+    text-align: center;
+    padding: 25px;
+}
+
+.home img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.home h1 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.home p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* menu */
+
+.menu {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu-intro {
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-item h3 {
+    margin-bottom: 5px;
+}
+
+.menu-item p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+
+
+/* about */
+
+.about {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
